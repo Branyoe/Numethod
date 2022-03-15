@@ -1,1 +1,215 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --animate-duration: .3s;
+  --animate-delay: 0.1s;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+}
+
+.border{
+  outline: 1px solid black;
+}
+
+.bgRed {
+  background-color: red;
+}
+
+.bgBlue {
+  background-color: blue;
+}
+
+.bgGreen {
+  background-color: green;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat100{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.montserrat200{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.montserrat300{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.montserrat400{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.montserrat500{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.montserrat600{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.montserrat700{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.montserrat800{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.montserrat900{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins100{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.poppins200{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.poppins300{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.poppins400{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.poppins500{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.poppins600{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.poppins700{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.poppins800{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.poppins900{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+
+
+.nunito{
+  font-family: 'Nunito', sans-serif;
+}
+
+.nunito200{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
+
+.nunito300{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+.nunito400{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+.nunito500{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+}
+
+.nunito600{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.nunito700{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.nunito800{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+.nunito900{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
+.lato100{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.lato300{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.lato400{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.lato700{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.lato900{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
